@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VEGANFOOD delivery to home</title>
     <link rel="stylesheet" href="/style.css" />
-    <nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <nav>
       <ul>
         <li><a href="produtos"></a>produtos</li>
         <li><a href="contato"></a>contato</li>
         <li><a href="como chegar"></a>como chegar</li>
       </ul>
-    </nav>
+    </nav> -->
   </head>
   <body>
-    <div>
+    <div class="wide">
       <img
         src="/img/82c728912eb8d1653f05ad6a1b15a566.jpg"
         alt="planta molhada"
@@ -23,29 +35,65 @@
         height="446.04px"
       />
       <img src="/img/Frame.png" alt="logo" />
+      <h1>VEGANFOOD</h1>
+      <h2>delivery to home</h2>
     </div>
-    <div>
-      <h1>Sign up</h1>
-      <h5>Já tem uma conta? Conecte-se</h5>
+    <div class="wide">
+      <h3>Sign Up</h3>
+
+      <h5>Already have an acount? <a href="#">Log in</a></h5>
       <main>
         <form action="">
-          <label for="nome">Nome</label><br />
-          <input type="text" id="nome" /><br />
+          <div>
+            <label for="yourname" class="text-input">Name</label><br />
+            <input
+              class="input"
+              type="text"
+              id="yourname"
+              placeholder=" your Name"
+            /><br />
+          </div>
 
-          <label for="email">Email</label><br />
-          <input type="text" id="email" /><br />
+          <div>
+            <label for="email" class="text-input">Email</label><br />
+            <input
+              class="input"
+              type="text"
+              id="email"
+              placeholder=" examples@gmail.com"
+            /><br />
+          </div>
 
-          <label for="number">Telefone</label><br />
-          <input type="text" id="number" /><br />
-
-          <input type="submit" id="enviar" />
+          <div>
+            <label for="number" class="text-input">Password</label><br />
+            <input
+              class="input"
+              type="text"
+              id="number"
+              placeholder=" Enter password"
+            /><br />
+          </div>
         </form>
 
-        <h5>I agree to Platforms Terms of Service and Privacy Policy</h5>
-        <p>or</p>
-
-        <button>Sign with Google</button>
+        <h5>
+          I agree to <a href="#">Platforms Terms </a> of Service and
+          <a href="#">Privacy Policy</a>
+        </h5>
+        <p>Or</p>
       </main>
+      <footer>
+        <button id="google">
+          <img
+            src="https://img2.gratispng.com/20180326/gte/kisspng-google-logo-g-suite-google-guava-google-plus-5ab8b5b15fd9f4.0166567715220545773927.jpg"
+            alt="google"
+            width="25px"
+            height="25px"
+          />
+          Sign with Google
+        </button>
+        <br />
+        <button id="createacc">Create account</button>
+      </footer>
     </div>
   </body>
 </html>
