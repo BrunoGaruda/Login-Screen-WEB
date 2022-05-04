@@ -1,3 +1,4 @@
+/*=== GERAL ===*/
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,8 @@
   --fundo: hsl(0, 0%, 96%);
   --texto: hsla(87, 6%, 31%, 1);
   --margin-left-div-right: 10.95rem;
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%; /*1rem = 10px*/
+  /* font-size: 100%; */
 }
 
 body {
@@ -35,6 +37,7 @@ h1 {
   font-size: 6.4rem;
   color: var(--primary-color);
   margin-left: 9rem;
+  margin-right: 9rem;
   /* margin-right: 10.5rem; */
   /* margin-bottom: 0%; */
   font-weight: 400;
@@ -45,9 +48,11 @@ h2 {
   color: var(--primary-color);
   /* margin-top: 0%; */
   /* justify-content: center; */
-  margin-left: 18.5rem;
+  margin-left: 16.5rem;
+  margin-right: 16.5rem;
   /* margin-right: 18.95rem;
   margin-inline: auto; */
+  font-weight: 400;
 }
 
 h3 {
@@ -117,42 +122,60 @@ p {
 }
 
 .left {
-  margin-inline: auto;
-  width: 100vw;
-  height: 100vw;
+  /* margin-inline: auto; */
+  /* width: 100vw; */
+  height: 100vh;
   background-color: hsla(0, 25%, 97%, 1);
-  display: inline-block;
+  /* display: inline-block; */
   /* width: 60.9rem; */
   /* position: absolute; */
   /* top: 0;
   left: 0; */
   z-index: -1;
+  margin-right: 9rem;
+  /* align-items: center;
+  justify-content: center; */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
 .right {
   margin-inline: auto;
   width: 100vw;
-  height: 100vw;
-  margin-left: var(--margin-left-div-right);
+  height: 100vh;
+  /* margin-left: var(--margin-left-div-right); */
   margin-right: 7.95rem;
   display: inline-block;
   align-items: center;
   justify-content: center;
+  /* z-index: 2; */
   /* margin-inline: auto; */
 }
 
 .folha {
   top: 0;
   left: 0;
-  /* position: absolute; */
-  z-index: 0;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo {
   /* position: absolute; */
   margin-top: 19.653rem;
-  margin-left: -3rem;
-  z-index: 2;
+  /* margin-left: -3rem; */
+  margin-bottom: 3.083rem;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .input {
@@ -169,6 +192,7 @@ label.text-input {
   height: 1.9rem;
 }
 
+/*=== BUTTON ===*/
 .button1 {
   background-color: hsla(0, 0%, 95%, 1);
   box-shadow: 0px 5px 5px #7b6b6b;
