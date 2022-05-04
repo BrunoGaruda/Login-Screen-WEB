@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Open+Sans&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <!-- <nav>
       <ul>
         <li><a href="produtos"></a>produtos</li>
@@ -27,19 +31,20 @@
     </nav> -->
   </head>
   <body>
-    <div class="wide">
+    <div class="left">
       <img
-        src="/img/82c728912eb8d1653f05ad6a1b15a566.jpg"
+        class="folha"
+        src="/img/pexels-min-an-1654255 1.png"
         alt="planta molhada"
         width="257px"
         height="446.04px"
       />
-      <img src="/img/Frame.png" alt="logo" />
-      <h1>VEGANFOOD</h1>
+      <img class="logo" src="/img/Frame.png" alt="logo" />
+    <h1>VEGAN<font color="#89b758">FOOD</font></style> </h1>
       <h2>delivery to home</h2>
     </div>
-    <div class="wide">
-      <h3>Sign Up</h3>
+    <div class="right">
+      <h3>Sign <font color="#89b758">Up</font></h3>
 
       <h5>Already have an acount? <a href="#">Log in</a></h5>
       <main>
@@ -74,15 +79,18 @@
             /><br />
           </div>
         </form>
-
-        <h5>
-          I agree to <a href="#">Platforms Terms </a> of Service and
-          <a href="#">Privacy Policy</a>
-        </h5>
-        <p>Or</p>
       </main>
       <footer>
-        <button id="google">
+        <h5>
+          <input type="checkbox" id="check" class="checkmark" />
+          <label for="check">
+            I agree to <a href="#">Platforms Terms </a> of Service and
+            <a href="#">Privacy Policy</a></label
+          >
+        </h5>
+        
+        <p>Or</p>
+        <button class="button1"">
           <img
             src="https://img2.gratispng.com/20180326/gte/kisspng-google-logo-g-suite-google-guava-google-plus-5ab8b5b15fd9f4.0166567715220545773927.jpg"
             alt="google"
@@ -92,7 +100,7 @@
           Sign with Google
         </button>
         <br />
-        <button id="createacc">Create account</button>
+        <button class="button2">Create account</button>
       </footer>
     </div>
   </body>
