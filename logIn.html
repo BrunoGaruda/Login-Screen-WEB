@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VEGANFOOD delivery to home</title>
-    <link rel="stylesheet" href="/style2.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,31 +34,27 @@
     <div class="left">
       <img
         class="folha"
-        src="/img/pexels-min-an-1654255 1.png"
+        src="/assets/pexels-min-an-1654255 1.png"
         alt="planta molhada"
         width="257px"
         height="446.04px"
       />
-      <img class="logo" src="/img/Frame.png" alt="logo" />
+      <img class="logo" src="/assets/Frame.png" alt="logo" />
     <h1>VEGAN<font color="#89b758">FOOD</font></style> </h1>
       <h2>delivery to home</h2>
     </div>
     <div class="right">
       <h3>Log <font color="#89b758">In</font></h3>
 
-      <h5>Already have an acount? <a href="#">Log in</a></h5>
+      <div class="sign-up">
+        <h5>
+          <a href="">Can't log in?</a>
+          </h5>
+        <h6><a href="#">Sign up for account</a></h6>
+      </div>
+     
       <main>
         <form action="">
-          <!-- <div>
-            <label for="yourname" class="text-input">Name</label><br />
-            <input
-              class="input"
-              type="text"
-              id="yourname"
-              placeholder=" your Name"
-            /><br />
-          </div> -->
-
           <div>
             <label for="email" class="text-input">Email</label><br />
             <input
@@ -70,19 +66,26 @@
           </div>
 
           <div>
-            <label for="number" class="text-input">Password</label><br />
+            <label for="password" class="text-input">Password</label><br />
             <input
               class="input"
-              type="text"
-              id="number"
-              placeholder=" Enter password"
-            /><br />
+              type="password"
+              id="password"
+              placeholder=" Enter password"              
+            />
+          
+            <img class="eyePassword" id="eyeSvg" onclick="eyeClick()" src="/assets/eye.svg" alt="">
+           
+            <br />
+            
           </div>
         </form>
+        <script src="main.js"></script>
       </main>
       <footer>
         <h5>
           <input type="checkbox" id="check" class="checkmark" />
+          
           <label for="check">
             I agree to <a href="#">Platforms Terms </a> of Service and
             <a href="#">Privacy Policy</a></label
@@ -100,7 +103,7 @@
           Sign with Google
         </button>
         <br />
-        <button class="button2">Log In</button>
+        <button class="button3">Log In</button>
       </footer>
     </div>
   </body>
