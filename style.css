@@ -230,7 +230,6 @@ label.text-input {
   height: 3.7rem;
   width: 42rem;
 
-  /* text-transform: uppercase; */
   color: hsla(0, 7%, 45%, 1);
   text-align: center;
   font-size: 1.4rem;
@@ -240,23 +239,16 @@ label.text-input {
   align-items: center;
   justify-content: center;
   gap: 1.6em;
-
-  /* margin-inline: auto; */
 }
 
 .button2 {
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   background-color: var(--secundary-color);
-
   border-radius: 8.3rem;
-  /* margin-bottom: 8.6rem; */
 
   border: none;
   height: 3.9rem;
   width: 22rem;
 
-  /* text-transform: uppercase; */
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
@@ -265,23 +257,18 @@ label.text-input {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 1.6em; */
   margin-left: 9.9rem;
 }
 
 .button3 {
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   background-color: var(--secundary-color);
 
   border-radius: 8.3rem;
-  /* margin-bottom: 8.6rem; */
 
   border: none;
   height: 3.9rem;
   width: 22rem;
 
-  /* text-transform: uppercase; */
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
@@ -290,12 +277,9 @@ label.text-input {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 1.6em; */
   margin-left: 9.9rem;
 }
 
 .eye-password {
   position: fixed;
-  /* display: inline-flex;
-  justify-content: center; */
 }
